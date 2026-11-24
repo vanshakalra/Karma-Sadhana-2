@@ -437,7 +437,8 @@ a{color:inherit;text-decoration:none}
   /* hero (mobile, per Figma 360x740) */
   .hero-stage{height:max(620px,min(100svh,860px));overflow:hidden;align-items:stretch}
   .hero-bg{height:100%;overflow:hidden}
-  .hero-bg video,.hero-bg::before,.hero-bg::after{display:none}
+  .hero-bg::before,.hero-bg::after{display:none}
+  .hero-bg video{display:block;position:absolute;inset:0;width:100%;height:100%;max-width:none;object-fit:cover;object-position:45% 50%}
   .hero-mimg{display:block;position:absolute;inset:0;width:100%;height:100%;max-width:none;object-fit:cover;object-position:50% 0}
   .hero-bg::after{display:none}
   .hero-inner{position:absolute;left:0;right:0;bottom:0;padding:80px 0 0;gap:0;background:linear-gradient(180deg,rgba(29,26,22,0) 0,rgba(29,26,22,.71) 38.7%,rgba(29,26,22,.9) 83.5%);-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px)}
