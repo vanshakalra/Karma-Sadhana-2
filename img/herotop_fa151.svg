@@ -1,0 +1,26 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="24.2308" height="24.2308" viewBox="0 0 24.2308 24.2308" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="fi-ts-calendar" clip-path="url(#clip0_0_18)">
+<g id="Vector">
+<use xlink:href="#stroke0_0_18" fill="#0F0F0F"/>
+<mask id="stroke1_0_18" maskUnits="userSpaceOnUse" x="-1" y="-1" width="26" height="26" fill="black">
+<rect fill="white" x="-1" y="-1" width="26" height="26"/>
+<use xlink:href="#stroke0_0_18"/>
+</mask>
+<path d="M21.7067 2.01923H18.1731V0H17.1635V2.01923H7.06731V0H6.05769V2.01923H2.52404C1.13279 2.01923 0 3.15202 0 4.54327V24.2308H24.2308V4.54327C24.2308 3.15202 23.098 2.01923 21.7067 2.01923ZM2.52404 3.02885H21.7067C22.5417 3.02885 23.2212 3.70832 23.2212 4.54327V8.07692H1.00962V4.54327C1.00962 3.70832 1.68909 3.02885 2.52404 3.02885ZM1.00962 23.2212V9.08654H23.2212V23.2212H1.00962Z" stroke-width="0.6" stroke="#0F0F0F" mask="url(#stroke1_0_18)"/>
+</g>
+<path id="Vector_2" d="M11.1058 13.125H9.08654V14.1346H11.1058V13.125Z" fill="#0F0F0F"/>
+<path id="Vector_3" d="M15.1442 13.125H13.125V14.1346H15.1442V13.125Z" fill="#0F0F0F"/>
+<path id="Vector_4" d="M19.1827 13.125H17.1635V14.1346H19.1827V13.125Z" fill="#0F0F0F"/>
+<path id="Vector_5" d="M11.1058 18.1731H9.08654V19.1827H11.1058V18.1731Z" fill="#0F0F0F"/>
+<path id="Vector_6" d="M7.06731 13.125H5.04808V14.1346H7.06731V13.125Z" fill="#0F0F0F"/>
+<path id="Vector_7" d="M7.06731 18.1731H5.04808V19.1827H7.06731V18.1731Z" fill="#0F0F0F"/>
+<path id="Vector_8" d="M15.1442 18.1731H13.125V19.1827H15.1442V18.1731Z" fill="#0F0F0F"/>
+<path id="Vector_9" d="M19.1827 18.1731H17.1635V19.1827H19.1827V18.1731Z" fill="#0F0F0F"/>
+</g>
+<defs>
+<clipPath id="clip0_0_18">
+<rect width="24.2308" height="24.2308" fill="white"/>
+</clipPath>
+<path id="stroke0_0_18" d="M21.7067 2.01923H18.1731V0H17.1635V2.01923H7.06731V0H6.05769V2.01923H2.52404C1.13279 2.01923 0 3.15202 0 4.54327V24.2308H24.2308V4.54327C24.2308 3.15202 23.098 2.01923 21.7067 2.01923ZM2.52404 3.02885H21.7067C22.5417 3.02885 23.2212 3.70832 23.2212 4.54327V8.07692H1.00962V4.54327C1.00962 3.70832 1.68909 3.02885 2.52404 3.02885ZM1.00962 23.2212V9.08654H23.2212V23.2212H1.00962Z"/>
+</defs>
+</svg>
