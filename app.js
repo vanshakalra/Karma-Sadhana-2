@@ -29,7 +29,11 @@ $$('.reveal').forEach(function(el){io?io.observe(el):el.classList.add('in')});
   if(vid){
     var ok=function(){vid.classList.add('ready')};
     vid.addEventListener('playing',ok);vid.addEventListener('loadeddata',ok);
-    var pr=vid.play&&vid.play();if(pr&&pr.catch)pr.catch(function(){});
+    vid.muted=true;vid.defaultMuted=true;vid.setAttribute('muted','');vid.setAttribute('playsinline','');vid.setAttribute('webkit-playsinline','');
+    var tryPlay=function(){var p=vid.play&&vid.play();if(p&&p.catch)p.catch(function(){})};
+    tryPlay();vid.addEventListener('loadedmetadata',tryPlay);vid.addEventListener('canplay',tryPlay);
+    ['touchstart','pointerdown','scroll','click'].forEach(function(ev){window.addEventListener(ev,function f(){if(vid.paused)tryPlay();else window.removeEventListener(ev,f)},{passive:true})});
+    document.addEventListener('visibilitychange',function(){if(!document.hidden&&vid.paused)tryPlay()});
   }
   function set(v){
     if(swapped===v)return;swapped=v;hero.classList.toggle('swap',v);
